@@ -3,9 +3,6 @@
 import sys, os
 import pandas as pd
 
-#read_file = pd.read_excel (r' path your excel file.xlsx', sheet_name='sheet name')
-#read_file.to_csv (r'Path to store the text file\File name.txt', index = None, header=True)  
-
 len_args = len(sys.argv)
 
 def index_argv_bytext(texto):
